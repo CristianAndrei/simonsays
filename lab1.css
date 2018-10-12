@@ -1,0 +1,23 @@
+.option{
+    background-color: yellow;
+    padding: 40px 82px;
+    text-align: center;
+}
+.option:active{
+    background-color: red;
+}
+.startDiv{
+    margin-top: 10px;
+    position: relative;     
+    left:50%;
+}
+.buttonDiv{
+    position: relative;    
+    transform: translate(-25%);
+    left:50%;
+}
+.simonTitle{
+    position: relative;    
+    transform: translate(-25%);
+    left:50%;
+}

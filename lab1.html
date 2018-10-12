@@ -1,0 +1,51 @@
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="lab1.css">
+        <meta charset="utf-8"/>
+</head>
+
+<body>
+
+<header>
+
+<h1 class="simonTitle">Simon Says</h1>
+</header>
+
+<section >  
+<div class="buttonDiv">   
+        <button type="button" onclick="clickButton(1)" id="1" class="option" >  1  </button>
+        <button type="button" onclick="clickButton(2)" id="2" class="option" >  2  </button>
+        <button type="button" onclick="clickButton(3)" id="3" class="option" >  3  </button>
+</div> 
+<div class="buttonDiv">      
+        <button type="button" onclick="clickButton(4)" id="4" class="option" >  4  </button>
+        <button type="button" onclick="clickButton(5)" id="5" class="option" >  5  </button>
+        <button type="button" onclick="clickButton(6)" id="6" class="option" >  6  </button>
+</div>      
+<div class="buttonDiv">
+        <button type="button" onclick="clickButton(7)" id="7" class="option" >  7  </button>
+        <button type="button" onclick="clickButton(8)" id="8" class="option" >  8  </button>
+        <button type="button" onclick="clickButton(9)" id="9" class="option" >  9  </button>
+</div>
+
+
+<div class="startDiv">
+<button  type="button" id="start" onclick="this.disabled=disabled" class="startButton"> Start </button>
+<select class="selectDifficulty" id="selectDifficulty">
+<option value="Easy">Easy</option>
+<option value="Medium">Medium</option>
+<option value="Hard">Hard</option>
+</select> 
+
+</div>
+</section>
+
+
+<script src="lab1.js"></script> 
+
+</body>
+
+
+
+
+</html>
